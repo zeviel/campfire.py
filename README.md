@@ -4,6 +4,6 @@ Web-API for campfire social network based on [campfire.moe](https://campfire.moe
 ## Example
 ```python3
 import campfire
-client = campfire.Client()
-client.login(email="", password="")
+campfire = campfire.Campfire()
+campfire.login(email="", password="")
 ```
